@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chat510</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="message_hint">Say anything</string>
+    <string name="send">Send</string>
+    <string name="profile_me">My Profile Pic</string>
+    <string name="profile_other">Other profile pic</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginBtn">loginBtn</string>
+    <string name="signupBtn">signupBtn</string>
+    <string name="chat">Chat</string>
+    <string name="btn510">btn510</string>
+    <string name="btnYoutube">btnYoutube</string>
+    <string name="youtube510">Youtube510</string>
+
+</resources>
