@@ -1,5 +1,6 @@
-package com.chat510;
+package com.chat510.ui.activity;
 
+import com.chat510.R;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;

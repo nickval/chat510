@@ -1,4 +1,4 @@
-package com.chat510;
+package com.chat510.ui.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.chat510.R;
+import com.chat510.ui.activity.ChatActivity;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;

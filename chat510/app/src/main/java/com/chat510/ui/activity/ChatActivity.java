@@ -1,8 +1,11 @@
-package com.chat510;
+package com.chat510.ui.activity;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.chat510.ui.adapters.ChatListAdapter;
+import com.chat510.entity.Message;
+import com.chat510.R;
 import com.parse.FindCallback;
 import com.parse.LogInCallback;
 import com.parse.ParseAnonymousUtils;
@@ -65,7 +68,7 @@ public class ChatActivity extends Activity {
 				Log.d("YoutubeButton", urlYoutube);
 				startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(urlYoutube)));
 			}
-		});;
+		});
 
         ImageButton btn510 = (ImageButton)findViewById(R.id.bt510);
 		btn510.setOnClickListener(new OnClickListener() {
