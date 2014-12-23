@@ -1,6 +1,5 @@
 package com.chat510.entity;
 
-import java.util.Date;
 
 /**
  * Created by MoNyA on 23.12.2014.

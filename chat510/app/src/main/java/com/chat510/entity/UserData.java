@@ -15,8 +15,10 @@ public class UserData {
     private String business;
     private Date birthDate;
     private String avatarLink;
+    private String geo;
+    private String permissions;
 
-    public UserData(String name, String surname, long phone, String country, String city, String business, Date birthDate, String avatarLink) {
+    public UserData(String name, String surname, long phone, String country, String city, String business, Date birthDate, String avatarLink, String geo, String permissions) {
         this.name = name;
         this.surname = surname;
         this.phone = phone;
@@ -25,6 +27,8 @@ public class UserData {
         this.business = business;
         this.birthDate = birthDate;
         this.avatarLink = avatarLink;
+        this.geo = geo;
+        this.permissions = permissions;
     }
 
     public String getName() {
@@ -89,5 +93,21 @@ public class UserData {
 
     public void setAvatarLink(String avatarLink) {
         this.avatarLink = avatarLink;
+    }
+
+    public String getGeo() {
+        return geo;
+    }
+
+    public void setGeo(String geo) {
+        this.geo = geo;
+    }
+
+    public String getPermissions() {
+        return permissions;
+    }
+
+    public void setPermissions(String permissions) {
+        this.permissions = permissions;
     }
 }
