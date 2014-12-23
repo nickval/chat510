@@ -1,6 +1,6 @@
 package com.chat510;
 
-import com.chat510.entity.Message;
+import com.chat510.datamodel.Message;
 import com.parse.Parse;
 import com.parse.ParseObject;
 import android.app.Application;

@@ -1,4 +1,4 @@
-package com.chat510.entity;
+package com.chat510.datamodel;
 
 import com.parse.ParseClassName;
 import com.parse.ParseObject;

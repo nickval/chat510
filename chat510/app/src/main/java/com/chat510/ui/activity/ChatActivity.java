@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.chat510.ui.adapters.ChatListAdapter;
-import com.chat510.entity.Message;
+import com.chat510.datamodel.Message;
 import com.chat510.R;
 import com.parse.FindCallback;
 import com.parse.LogInCallback;
@@ -46,7 +46,9 @@ public class ChatActivity extends Activity {
 	// Create a handler which can run code periodically
 	private Handler handler = new Handler();
 
-	private static final int MAX_CHAT_MESSAGES_TO_SHOW = 100;	
+	private static final int MAX_CHAT_MESSAGES_TO_SHOW = 100;
+
+
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

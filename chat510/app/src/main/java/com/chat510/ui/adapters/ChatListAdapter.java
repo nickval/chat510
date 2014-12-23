@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.util.List;
 
-import com.chat510.entity.Message;
+import com.chat510.datamodel.Message;
 import com.chat510.R;
 import com.squareup.picasso.Picasso;
 import android.content.Context;
