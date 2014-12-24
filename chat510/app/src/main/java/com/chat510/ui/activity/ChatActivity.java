@@ -6,6 +6,7 @@ import java.util.List;
 import com.chat510.ui.adapters.ChatListAdapter;
 import com.chat510.datamodel.Message;
 import com.chat510.R;
+import com.chat510.utils.Constants;
 import com.parse.FindCallback;
 import com.parse.LogInCallback;
 import com.parse.ParseAnonymousUtils;
@@ -40,8 +41,7 @@ public class ChatActivity extends Activity {
 	private ArrayList<Message> mMessages;
 	private ChatListAdapter mAdapter;
 	
-	private String url510 = "http://510.com.ua";
-	private String urlYoutube = "https://m.youtube.com/user/GennadiyBalashov/";
+
 	
 	// Create a handler which can run code periodically
 	private Handler handler = new Handler();
@@ -67,8 +67,8 @@ public class ChatActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Log.d("YoutubeButton", urlYoutube);
-				startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(urlYoutube)));
+				Log.d("YoutubeButton", Constants.urlYoutube);
+				startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(Constants.urlYoutube)));
 			}
 		});
 
@@ -78,7 +78,7 @@ public class ChatActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url510)));			
+				startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(Constants.url510)));
 			}
 		});
 		
