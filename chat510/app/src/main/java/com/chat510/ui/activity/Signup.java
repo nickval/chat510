@@ -3,6 +3,7 @@ package com.chat510.ui.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -68,7 +69,7 @@ public class Signup extends Activity {
 					userEmailtxt = userEmail.getText().toString();
 					phonetxt = phone.getText().toString();
 					postaladresstxt = postaladress.getText().toString();
-					dobtxt = dob.getText().toString();			
+					dobtxt = dob.getText().toString();
 
 
 //					if (usernametxt.equals("") || passwordtxt.equals("")) {
